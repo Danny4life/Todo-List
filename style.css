@@ -1,0 +1,52 @@
+body {
+  display: flex;
+  background-color: blueviolet;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: 0rem 20rem 0rem 20rem;
+  background-color: aliceblue;
+  border: 2px solid green;
+  border-radius: 1rem;
+  box-sizing: border-box;
+  box-shadow: 0.1rem 0.1rem 0.4rem black;
+  position: relative;
+  }
+
+
+#first {
+  text-transform: capitalize;
+}
+
+.userInput {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+input {
+  margin-right: 1rem;
+  border: 2px solid green;
+}
+
+/*.wrapper {
+  display: flex;
+  flex-wrap: wrap;
+
+}*/
+
+.done {
+  text-decoration: line-through;
+}
+
+ul {
+  display: block;
+}
+
+.button1 {
+  display: flex;
+  color: green;
+}
